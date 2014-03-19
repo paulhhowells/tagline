@@ -1,3 +1,27 @@
+
+# scratchpads
+__*
+
+# Mac OSX
+.DS_Store
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+
+# Bower
+src/bower_components
+app/bower_components
+
+# Logs
+*.log
+
+# PHPStorm
+.idea
+.idea/
+
+# Node
 lib-cov
 *.seed
 *.log
@@ -13,3 +37,4 @@ results
 
 npm-debug.log
 node_modules
+# /Node

@@ -11,8 +11,8 @@ __*
 Thumbs.db
 
 # Bower
+src/js/vendor
 src/bower_components
-app/bower_components
 
 # Logs
 *.log

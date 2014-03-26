@@ -1,0 +1,20 @@
+{
+  "name": "tagline",
+  "version": "0.0.1",
+  "description": "Mark-up as JSON",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulhhowells/tagline.git"
+  },
+  "author": "Paul H Howells <paul at paulhhowells dot net>",
+  "devDependencies": {
+    "npm": "^1.4.5",
+    "install": "^0.1.7",
+    "grunt": "^0.4.4",
+    "karma-jasmine": "^0.2.2",
+    "karma": "^0.12.1",
+    "grunt-contrib-less": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.0"
+  },
+  "dependencies": {}
+}

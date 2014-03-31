@@ -1,0 +1,60 @@
+{
+	content: [
+		{
+			tag: "h1",
+			string: "Heading One"
+		},
+		{
+			tag: "p",
+			string: "Hello world!"
+		},
+		{
+			tag: "p",
+			style: "strapline",
+			ref: "string.a1"
+		},
+		{
+			tag: "img",
+			src: "",
+			alt: "",
+			ref: "",
+			size: ""
+		},
+		{
+			tag: "ol",
+			content: [
+				{
+					tag: "li",
+					string: "first"
+				},
+				{
+					tag: "li",
+					string: "second"
+				}
+			],
+			attributes: {},
+			meta: {},
+			style: {}
+		},
+		{
+			tag: "aside",
+			content: [
+				{
+					tag: "p",
+					str: "aside paragraph"
+				}
+			],
+			context: {
+				page: {
+					style: [
+						"page-aside",
+						"page-aside-right"
+					]
+				}
+				teaser: {
+					style: "teaser-aside"
+				}
+			}
+		}
+	]
+}

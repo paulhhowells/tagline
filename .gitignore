@@ -8,7 +8,7 @@ __*
 .Trashes
 
 # Windows
-Thumbs.db
+[Tt]humbs.db
 
 # Bower
 src/js/vendor

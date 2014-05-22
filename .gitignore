@@ -1,3 +1,11 @@
+# Ignore Mac files
+.DS_Store
+[Tt]humbs.db
+
+# Ignore stuff marked for ignoring
+__*
+
+# Ignore Node
 lib-cov
 *.seed
 *.log

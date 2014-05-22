@@ -1,0 +1,71 @@
+{
+	"content": [
+		{
+			"tag": "h1",
+			"string": "Heading One"
+		},
+		{
+			"tag": "p",
+			"string": "Hello world!"
+		},
+		{
+			"tag": "div",
+			"content": [
+				{
+					"tag": "p",
+					"string": "Inside a P inside a Div"
+				}
+			]
+		},
+		{
+			"tag": "img",
+			"src": "content/images/disk_x2.png",
+			"alt": "disk alt text",
+			"width": "67",
+			"height": "67",
+			"ref": "",
+			"size": ""
+		},
+		{
+			"tag": "ol",
+			"content": [
+				{
+					"tag": "li",
+					"string": "first"
+				},
+				{
+					"tag": "li",
+					"string": "second"
+				}
+			],
+			"attributes": {},
+			"meta": {},
+			"style": {}
+		},
+		{
+			"tag": "aside",
+			"content": [
+				{
+					"tag": "p",
+					"string": "aside paragraph"
+				}
+			],
+			"context": {
+				"page": {
+					"style": [
+						"page-aside",
+						"page-aside-right"
+					]
+				},
+				"teaser": {
+					"style": "teaser-aside"
+				}
+			}
+		},
+		{
+			"tag": "p",
+			"style": "strapline",
+			"ref": "string.a1"
+		}
+	]
+}

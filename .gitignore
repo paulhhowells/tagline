@@ -1,11 +1,26 @@
-# Ignore Mac files
-.DS_Store
-[Tt]humbs.db
-
-# Ignore stuff marked for ignoring
+# scratchpads
 __*
 
-# Ignore Node
+# Mac OSX
+.DS_Store
+.Spotlight-V100
+.Trashes
+
+# Windows
+[Tt]humbs.db
+
+# Bower
+src/js/vendor
+src/bower_components
+
+# Logs
+*.log
+
+# PHPStorm
+.idea
+.idea/
+
+# Node
 lib-cov
 *.seed
 *.log
@@ -21,3 +36,4 @@ results
 
 npm-debug.log
 node_modules
+# /Node
